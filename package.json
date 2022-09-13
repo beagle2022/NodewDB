@@ -1,0 +1,23 @@
+{
+  "name": "nodewmysql",
+  "version": "1.0.0",
+  "description": "Contains project which connects to mysql using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beagle2022/NodewDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beagle2022/NodewDB/issues"
+  },
+  "homepage": "https://github.com/beagle2022/NodewDB#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
