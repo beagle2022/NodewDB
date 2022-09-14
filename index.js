@@ -1,6 +1,6 @@
-const ex= require('express');
-const my= require('mysql');
-const app= ex();
+const express= require('express');
+//const my= require('mysql');
+const app= express();
 const connection=require('./database');
 
 app.get('/', (req,res)=>{
@@ -9,9 +9,9 @@ app.get('/', (req,res)=>{
 
 });
 
-app.listen(3001, ()=> {
-    console.log('App listening on port 3001');
-    conn.connect(function(err){
+app.listen(3010, ()=> {
+    console.log('App listening on port 3010');
+    connection.connect(function(err){ 
 
         if(err) throw err;
         console.log('Database Connected');
