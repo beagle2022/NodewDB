@@ -1,4 +1,4 @@
-require("..config/dotenv").config();
+require("dotenv").config();
 const mysql1=require("mysql2");
 
 
