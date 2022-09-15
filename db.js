@@ -10,11 +10,14 @@ const pool=mysql1.createPool({
 });
 
 let sql="Select * from myusers";
+//Graceful exit app
 pool.execute(sql,(err,result)=>{
     if(err) throw err;
     console.log(result);
+    process.exit(0);
 
 });
+
 
 
 
